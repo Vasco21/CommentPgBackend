@@ -18,7 +18,7 @@ app.get('/', (req, res) =>{
   res.send('APP IS RUNING.');
 })
 
-const CONNECTION_URL = "mongodb+srv://Vasco21:Creative@comment-post.g2obsnu.mongodb.net/User?retryWrites=true&w=majority";
+const CONNECTION_URL = "DATABASE_ACCESS";
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
